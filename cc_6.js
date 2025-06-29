@@ -39,3 +39,10 @@ class Company {
 const emp1 = new Employee("Miles Morales", "Sustainability");
 const emp2 = new Employee("Adam Silver", "Risk & Compliance");
 const mgr1 = new Manager("Baker Mayfield", "Strategic Operations", 7);
+
+const myCompany = new Company();
+myCompany.addEmployee(emp1);
+myCompany.addEmployee(emp2);
+myCompany.addEmployee(mgr1);
+
+myCompany.listEmployees();
